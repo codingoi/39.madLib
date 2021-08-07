@@ -1,0 +1,177 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+
+  <!--STYLE-->
+
+  <!--STYLESHEET-->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!--STYLE: FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Londrina+Shadow&display=swap"
+    rel="stylesheet" />
+
+    <!--TITLE-->
+  <title>MadLib for Techies: Form</title>
+</head>
+
+<body>
+  <div class="out-border">
+    <div class="content">
+      <!--HEADER-->
+      <section id="top">
+        <h1>MAD LIBS</h1>
+        <h2>FOR TECHIES</h2>
+      </section>
+
+      <!--MAD LIB FORM-->
+      <section id="main">
+        <hr />
+        <!--Title-->
+        <h3>The History of...</h3>
+
+        <!--FORM-->
+
+        <form action="story.html" method="GET">
+          <!--BEGINNING OF ORDERED LIST-->
+          <ol>
+            <!--PROPER NOUN-->
+            <li>
+              <label for="noun-1">Proper Noun:</label>
+              <input id="noun-1" name="noun-1" type="text" required />
+            </li>
+            <!--VERB (-ING)-->
+            <li>
+              <label for="verb-1">Verb Present ends in ING:</label>
+              <input id="verb-1" name="verb-1" type="text" required />
+            </li>
+            <!--NOUN(S)-->
+            <li>
+              <label for="noun-2">Noun Plural:</label>
+              <input id="noun-2" name="noun-2" type="text" required />
+            </li>
+            <!--VERB(ED)-->
+            <li>
+              <label for="verb-2">Verb Past Tense:</label>
+              <input id="verb-2" name="verb-2" type="text" required />
+            </li>
+            <!--VERB(ED)-->
+            <li>
+              <label for="verb-3">Verb Past Tense:</label>
+              <input id="verb-3" name="verb-3" type="text" required />
+            </li>
+            <!--ADJ-->
+            <li>
+              <label for="adj-1">Adjective:</label>
+              <input id="adj-1" name="adj-1" type="text" required />
+            </li>
+            <!--NOUN-->
+            <li>
+              <label for="noun-3">Noun:</label>
+              <input id="noun-3" name="noun-3" type="text" required />
+            </li>
+            <!--ADJ-->
+            <li>
+              <label for="adj-2">Adjective:</label>
+              <input id="adj-2" name="adj-2" type="text" required />
+            </li>
+            <!--ADVERB-->
+            <li>
+              <label for="adv-1">Adverb:</label>
+              <input id="adv-1" name="adv-1" type="text" required />
+            </li>
+            <!--ADJ-->
+            <li>
+              <label for="adj-3">Adjective:</label>
+              <input id="adj-3" name="adj-3" type="text" required />
+            </li>
+            <!-- NOUN-->
+            <li>
+              <label for="noun-4">Noun:</label>
+              <input id="noun-4" name="noun-4" type="text" required />
+            </li>
+            <!--ADJ (ED)-->
+            <li>
+              <label for="adj-4">Adjective (past tense):</label>
+              <input id="adj-4" name="adj-4" type="text" required />
+            </li>
+            <!-- NOUN-->
+            <li>
+              <label for="noun-5">Noun:</label>
+              <input id="noun-5" name="noun-5" type="text" required />
+            </li>
+            <!--YES/NO-->
+            <li>
+              <span>Yes or No:</span>
+              <input
+                  id="yes"
+                  name="answer"
+                  type="radio"
+                  value="yes"
+                  required
+                />
+              <label for="yes">Yes</label>
+              <input id="no" name="answer" type="radio" value="no" required />
+              <label for="no">No</label>
+            </li>
+            <!--NUM-->
+            <li>
+              <label for="num-1">Number:</label>
+              <input
+                  id="num-1"
+                  name="num-1"
+                  type="number"
+                  min="1"
+                  max="105085"
+                  required
+                />
+            </li>
+            <!--SPEED-->
+            <li>
+              <label for="speed">Relative speed (end in -er):</label>
+              <select id="speed" name="speed" required>
+                  <option value="slower">Slower</option>
+                  <option value="faster">faster</option>
+                </select>
+            </li>
+            <!--QUOTE-->
+            <li>
+              <label for="quote">Motivational Quote:</label>
+              <input
+                  type="text"
+                  list="quote-choices"
+                  id="quote"
+                  name="quote"
+                />
+
+              <datalist id="quote-choices">
+                <option value="investors gets money!"></option>
+                <option value="investors gets the ice cream!"></option>
+                <option value="investors gets the smores!"></option>
+                <option value="investors gets a hot dog!"></option>
+                <option value="investors gets a burger!"></option>
+                <option value="Other"></option>
+              </datalist>
+            </li>
+          </ol>
+          <!--END OF LIST-->
+
+          <!--SUBMIT-->
+          <input type="submit" value="Form My Story!" />
+        </form>
+        <!--END OF FORM-->
+      </section>
+
+      <!--MARKER-->
+      <img
+          src="https://cdn.shopify.com/s/files/1/0047/4231/6066/files/marker4.png?v=1604077547" alt="red drawing marker"
+        />
+    </div>
+  </div>
+</body>
+
+</html>

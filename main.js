@@ -1,7 +1,7 @@
 // Grab values from the submitted form in the URL
 const words = new URLSearchParams(window.location.search);
 
-// Cleans up and capitalizes the names of the animals
+// Cleans up and capitalizes the variables (parameters from the query string)
 function cleanAndCap (str){
   if(!str) return null
   let temp = str.trim()

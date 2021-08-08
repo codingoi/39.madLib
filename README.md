@@ -10,7 +10,7 @@ What you have to do is now make a form capable of collecting the correct informa
 ## Code Explanation
 
 ### HTML
-This project attempts to simulate a mad lib game. The project begins with the creation of html form with 17 inputs. Each input is required. Upon form completion ad submission, a query string is created. 
+This project attempts to simulate a mad lib game. The project begins with the creation of html form with 17 inputs. Each input is required. Upon form completion and submission, a query string is created. 
 
 ### JS Script
 A URLSearchParams object is created, which grabs the parameters from the query string found in the URL. Variables are hardcoded and assigned to represent the value of each parameter. Through string interpolation, the values are inserted into the story template. DOM-manipulation is used to present the completed mad lib to the user. 

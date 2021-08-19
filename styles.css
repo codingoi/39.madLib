@@ -35,6 +35,7 @@ h3 {
   margin: 20px 10px;
   border: solid black 7.5px;
   padding: 0 15px;
+  height: fit-content;
 }
 
 .out-border {
@@ -43,6 +44,7 @@ h3 {
   margin: 20px 10px;
   transform: rotate(0.01turn);
   width: 90%;
+  height: fit-content;
 }
 
 #top {
@@ -52,7 +54,8 @@ h3 {
 /*MAD LIB FORM*/
 
 ol li {
-  margin-bottom: 10px;
+  margin-bottom: 5%;
+  margin-left: 2.5%;
   font-weight: bold;
 }
 
@@ -68,12 +71,14 @@ img {
 input[type='text'],
 input[type='number'] {
   min-height: 25px;
+  width: clamp(20%, 40%, 60%);
   border-radius: 5px;
   border: 1px solid #cccccc;
   color: #fe3333;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
+  margin-left: 10px;
 }
 
 input[type='radio'] {
@@ -92,20 +97,11 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: #fe3333;
   cursor: pointer;
+  margin-left: 2.5%;
 }
 
 
 /* STORY (ORIGINAL & COMPLETED LIB) */
-
-a {
-  color: black;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #fe3333;
-}
-
 
 p {
   line-height: 1.5;
@@ -119,7 +115,22 @@ p {
 }
 
 
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #fe3333;
+}
+
 .links {
   margin: 10px auto;
   width: 100%;
+}
+
+/*@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  img {
+    display: none;
+  }
 }

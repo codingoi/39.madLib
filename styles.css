@@ -1,5 +1,8 @@
 /*UNIVERSAL STYLES*/
 
+html {
+  font-size: 62.5%;
+}
 body {
   background: #f1ed35;
   font-family: 'Josefin Sans', sans-serif;
@@ -8,40 +11,42 @@ body {
 }
 
 
+
+/*-- UNIVERSAL: HEADINGS --*/
 h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 7rem;
   display: inline-block;
   text-align: center;
-
 }
-
 h2 {
   font-family: 'Londrina Shadow', cursive;
-  font-size: 50px;
+  font-size: 5rem;
   display: inline-block;
   text-decoration: underline;
   color: #fe3333;
 
 }
-
 h3 {
-  font-size: 25px;
+  font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
+
+/*-- UNIVERSAL: CONTAINER --*/
 .content {
-  margin: 20px 10px;
-  border: solid black 7.5px;
-  padding: 0 15px;
+  margin: 2rem 1rem;
+  border: solid black .75rem;
+  padding: 0 1.5rem;
   height: fit-content;
 }
 
-.out-border {
+.outside-border {
   background-color: white;
-  padding: 5px;
-  margin: 20px 10px;
+  padding: .5rem;
+  margin: 2rem 1rem;
   transform: rotate(0.01turn);
   width: 90%;
   height: fit-content;
@@ -49,7 +54,10 @@ h3 {
 
 #top {
   text-align: center;
+  border-bottom: 0.1rem solid grey;  
 }
+
+
 
 /*MAD LIB FORM*/
 
@@ -59,10 +67,14 @@ ol li {
   font-weight: bold;
 }
 
+li label, li span {
+  font-size: 1.8rem;
+}
+
 img {
   position: absolute;
   margin-bottom: 0;
-  height: 400px;
+  height: 40rem;
   right: 0;
   bottom: 0;
   transform: rotate(-0.035turn);
@@ -70,26 +82,26 @@ img {
 
 input[type='text'],
 input[type='number'] {
-  min-height: 25px;
+  min-height: 2.5rem;
   width: clamp(20%, 40%, 60%);
-  border-radius: 5px;
-  border: 1px solid #cccccc;
+  border-radius: .5rem;
+  border: .1rem solid #cccccc;
   color: #fe3333;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 input[type='radio'] {
-  margin-left: 12px;
+  margin-left: 1.2rem;
 }
 
 input[type='submit'] {
   background-color: #000;
-  border-radius: 15px;
-  min-height: 25px;
-  margin: 10px auto;
+  border-radius: 1.5rem;
+  min-height: 2.5rem;
+  margin: 1rem auto;
   color: #fff;
   font-weight: bold;
 }
@@ -103,18 +115,6 @@ input[type='submit']:hover {
 
 /* STORY (ORIGINAL & COMPLETED LIB) */
 
-p {
-  line-height: 1.5;
-  font-size: 18px;
-}
-
-.word {
-  color: #fe3333;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-
 a {
   color: black;
   font-weight: bold;
@@ -123,14 +123,30 @@ a {
 a:hover {
   color: #fe3333;
 }
+article {
+  padding: 0 10%;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
 
 .links {
-  margin: 10px auto;
+  margin: 1rem auto;
   width: 100%;
 }
+
+.word {
+  color: #fe3333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+
 
 /*@media only screen and (min-width: 320px) and (max-width: 1024px) {
   img {
     display: none;
   }
-}
+}*/

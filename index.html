@@ -16,12 +16,12 @@
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Londrina+Shadow&display=swap"
     rel="stylesheet" />
 
-    <!--TITLE-->
+  <!--TITLE-->
   <title>MadLib for Techies: Form</title>
 </head>
 
 <body>
-  <div class="out-border">
+  <div class="outside-border">
     <div class="content">
       <!--HEADER-->
       <section id="top">
@@ -31,12 +31,10 @@
 
       <!--MAD LIB FORM-->
       <section id="main">
-        <hr />
         <!--Title-->
         <h3>The History of...</h3>
 
         <!--FORM-->
-
         <form action="story.html" method="GET">
           <!--BEGINNING OF ORDERED LIST-->
           <ol>
@@ -88,7 +86,7 @@
             <!--ADJ-->
             <li>
               <label for="adj-3">Adjective:</label>
-              <input id="adj-3" name="adj-3" type="text" placeholder="ex: UGLY"required />
+              <input id="adj-3" name="adj-3" type="text" placeholder="ex: UGLY" required />
             </li>
             <!-- NOUN-->
             <li>
@@ -108,13 +106,7 @@
             <!--YES/NO-->
             <li>
               <span>Yes or No:</span>
-              <input
-                  id="yes"
-                  name="answer"
-                  type="radio"
-                  value="yes"
-                  required
-                />
+              <input id="yes" name="answer" type="radio" value="yes" required />
               <label for="yes">Yes</label>
               <input id="no" name="answer" type="radio" value="no" required />
               <label for="no">No</label>
@@ -122,32 +114,20 @@
             <!--NUM-->
             <li>
               <label for="num-1" placeholder="ex: 500">Number:</label>
-              <input
-                  id="num-1"
-                  name="num-1"
-                  type="number"
-                  min="1"
-                  max="105085"
-                  required
-                />
+              <input id="num-1" name="num-1" type="number" min="1" max="105085" required />
             </li>
             <!--SPEED-->
             <li>
               <label for="speed">Relative speed (end in -er):</label>
               <select id="speed" name="speed" required>
-                  <option value="slower">Slower</option>
-                  <option value="faster">faster</option>
-                </select>
+                <option value="slower">Slower</option>
+                <option value="faster">faster</option>
+              </select>
             </li>
             <!--QUOTE-->
             <li>
               <label for="quote">Motivational Quote:</label>
-              <input
-                  type="text"
-                  list="quote-choices"
-                  id="quote"
-                  name="quote"
-                />
+              <input type="text" list="quote-choices" id="quote" name="quote" />
 
               <datalist id="quote-choices">
                 <option value="investors gets money!"></option>
@@ -168,9 +148,7 @@
       </section>
 
       <!--MARKER-->
-      <img
-          src="./media/images/marker4.png" alt="red drawing marker"
-        />
+      <img src="./media/images/marker4.png" alt="red drawing marker" />
     </div>
   </div>
 </body>

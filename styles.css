@@ -4,7 +4,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: #f1ed35;
+  background: #F1ED35;
   font-family: 'Josefin Sans', sans-serif;
   width: 100%;
   overflow: scroll;
@@ -24,7 +24,7 @@ h2 {
   font-size: 5rem;
   display: inline-block;
   text-decoration: underline;
-  color: #fe3333;
+  color: #FE3333;
 
 }
 h3 {
@@ -38,13 +38,13 @@ h3 {
 /*-- UNIVERSAL: CONTAINER --*/
 .content {
   margin: 2rem 1rem;
-  border: solid black .75rem;
+  border: solid #000 .75rem;
   padding: 0 1.5rem;
   height: fit-content;
 }
 
 .outside-border {
-  background-color: white;
+  background-color: #FFF;
   padding: .5rem;
   margin: 2rem 1rem;
   transform: rotate(0.01turn);
@@ -54,7 +54,7 @@ h3 {
 
 #top {
   text-align: center;
-  border-bottom: 0.1rem solid grey;  
+  border-bottom: .1rem solid grey;  
 }
 
 
@@ -64,7 +64,7 @@ h3 {
 ol li {
   margin-bottom: 5%;
   margin-left: 2.5%;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 li label, li span {
@@ -85,10 +85,10 @@ input[type='number'] {
   min-height: 2.5rem;
   width: clamp(20%, 40%, 60%);
   border-radius: .5rem;
-  border: .1rem solid #cccccc;
-  color: #fe3333;
+  border: .1rem solid #CCC;
+  color: #FE3333;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
 }
@@ -102,12 +102,12 @@ input[type='submit'] {
   border-radius: 1.5rem;
   min-height: 2.5rem;
   margin: 1rem auto;
-  color: #fff;
-  font-weight: bold;
+  color: #FFF;
+  font-weight: 700;
 }
 
 input[type='submit']:hover {
-  background-color: #fe3333;
+  background-color: #FE3333;
   cursor: pointer;
   margin-left: 2.5%;
 }
@@ -116,12 +116,12 @@ input[type='submit']:hover {
 /* STORY (ORIGINAL & COMPLETED LIB) */
 
 a {
-  color: black;
+  color: #000;
   font-weight: bold;
 }
 
 a:hover {
-  color: #fe3333;
+  color: #FE3333;
 }
 article {
   padding: 0 10%;
@@ -137,8 +137,8 @@ p {
 }
 
 .word {
-  color: #fe3333;
-  font-weight: bold;
+  color: #FE3333;
+  font-weight: 700;
   font-size: 2rem;
 }
 
